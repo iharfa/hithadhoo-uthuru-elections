@@ -1,16 +1,22 @@
 {
   "name": "hithadhoo-uthuru-elections",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build.js",
-    "build:verified": "node scripts/check-data.js && node scripts/build.js",
-    "dev": "node scripts/dev-server.js",
-    "test:labels": "npx playwright test"
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "build:verified": "vite build"
   },
-  "engines": {
-    "node": ">=20"
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "echarts": "latest",
+    "echarts-for-react": "latest"
   },
   "devDependencies": {}
 }

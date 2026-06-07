@@ -1,43 +1,31 @@
-# Hithadhoo Uthuru Elections Dashboard
+# Hithadhoo Uthuru Election Trends
 
-A clean Vercel-ready static dashboard using Apache ECharts.
+Interactive Vercel dashboard for Hithadhoo Uthuru election results across 2019, 2024, and the 2026 by-election.
 
-This version avoids the npm install failure by using no npm dependencies. Vercel skips dependency installation and builds a static `dist` folder.
-
-## Deploy fresh
-
-1. Delete the old files in your repo.
-2. Upload or commit these files.
-3. In Vercel, redeploy.
-
-## Local run
+## Run locally
 
 ```bash
-npm install
+npm install --no-audit --no-fund
 npm run dev
 ```
 
-## Vercel build
+## Build
 
 ```bash
 npm run build:verified
 ```
 
-## Optional Playwright label test
+## Deploy on Vercel
 
-This is optional and not run on Vercel by default.
+The project includes `vercel.json` and uses Vite.
 
-```bash
-npm i -D @playwright/test
-npx playwright install chromium
-npm run dev
-npm run test:labels
-```
+## Features
 
-## Logo
-
-Replace this file with the official logo when you have it:
-
-```text
-src-static/assets/cog-logo.svg
-```
+- Apache ECharts interactive charts
+- Party visibility chips
+- Election range sliders
+- Data zoom sliders inside charts
+- Toggle labels on or off
+- Toggle valid votes on or off
+- KPI cards with previous value and positive or negative movement
+- Coalition for Open Governance footer and logo

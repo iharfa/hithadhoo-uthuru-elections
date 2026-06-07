@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 96" role="img" aria-labelledby="title desc">
-  <title id="title">Coalition for Open Governance placeholder logo</title>
-  <desc id="desc">Simple placeholder logo. Replace with the official Coalition for Open Governance logo when available.</desc>
-  <rect width="320" height="96" rx="18" fill="#0f172a"/>
-  <circle cx="50" cy="48" r="26" fill="#facc15"/>
-  <circle cx="50" cy="48" r="15" fill="#14b8a6"/>
-  <text x="88" y="42" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Coalition for</text>
-  <text x="88" y="68" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Open Governance</text>
-</svg>

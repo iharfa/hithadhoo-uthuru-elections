@@ -1,0 +1,7 @@
+{
+  "installCommand": "echo Skipping dependency install. This project has no npm dependencies.",
+  "buildCommand": "npm run build:verified",
+  "outputDirectory": "dist",
+  "framework": null,
+  "cleanUrls": true
+}

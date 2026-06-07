@@ -1,0 +1,67 @@
+{
+  "elections": [
+    {
+      "election": "2019 Parliamentary",
+      "date": "2019-04-06",
+      "winner": "Mohamed Aslam",
+      "winningParty": "MDP",
+      "winnerVotes": 1184,
+      "winnerShare": 41.51,
+      "runnerUp": "Ahmed Mohamed",
+      "runnerUpParty": "Independent",
+      "runnerUpVotes": 761,
+      "runnerUpShare": 26.68,
+      "validVotes": 2852,
+      "invalidVotes": 49,
+      "totalVoted": 2901,
+      "eligibleVoters": 3849,
+      "turnoutPct": 75.37,
+      "margin": 423,
+      "parties": { "MDP": 41.51, "PNC": 4.98, "Democrats": 0, "Independent": 53.51 }
+    },
+    {
+      "election": "2024 Parliamentary",
+      "date": "2024-04-21",
+      "winner": "Mohamed Sinan",
+      "winningParty": "PNC",
+      "winnerVotes": 1079,
+      "winnerShare": 39.05,
+      "runnerUp": "Mohamed Aslam",
+      "runnerUpParty": "MDP",
+      "runnerUpVotes": 838,
+      "runnerUpShare": 30.33,
+      "validVotes": 2763,
+      "invalidVotes": 29,
+      "totalVoted": 2792,
+      "eligibleVoters": 4028,
+      "turnoutPct": 69.31,
+      "margin": 241,
+      "parties": { "MDP": 30.33, "PNC": 39.05, "Democrats": 2.71, "Independent": 27.9 }
+    },
+    {
+      "election": "2026 By-election",
+      "date": "2026-06-06",
+      "winner": "Abdulla Sodig",
+      "winningParty": "MDP",
+      "winnerVotes": 1375,
+      "winnerShare": 51.15,
+      "runnerUp": "Ahmed Saeed",
+      "runnerUpParty": "PNC",
+      "runnerUpVotes": 1313,
+      "runnerUpShare": 48.85,
+      "validVotes": 2688,
+      "invalidVotes": 42,
+      "totalVoted": 2730,
+      "eligibleVoters": 4121,
+      "turnoutPct": 66.25,
+      "margin": 62,
+      "parties": { "MDP": 51.15, "PNC": 48.85, "Democrats": 0, "Independent": 0 }
+    }
+  ],
+  "sources": [
+    { "label": "Elections Commission, Parliamentary Election 2019 Statistics", "url": "https://stat.elections.gov.mv/Home/PE2019" },
+    { "label": "Elections Commission, Parliamentary Election 2024 Statistics", "url": "https://stat.elections.gov.mv/Home/PE2024" },
+    { "label": "Elections Commission, 2026 Hithadhoo North by-election results", "url": "https://results.elections.gov.mv/" },
+    { "label": "The Maldives Democracy Network, Coalition for Open Governance", "url": "https://democracymaldives.org/?page_id=356" }
+  ]
+}

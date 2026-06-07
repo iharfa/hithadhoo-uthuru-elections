@@ -1,0 +1,16 @@
+{
+  "name": "hithadhoo-uthuru-elections",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "build:verified": "node scripts/check-data.js && node scripts/build.js",
+    "dev": "node scripts/dev-server.js",
+    "test:labels": "npx playwright test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {}
+}
